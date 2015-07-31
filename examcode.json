@@ -1,0 +1,24 @@
+[
+{
+  "Field" : "Use flag 1",
+  "Unit" : "mainform.pas",
+  "Overview" : "Use flag 1: Use this field when you need to add an item ",
+  "ticket" : "54234"
+
+} ,
+  {
+    "Field" : "Use flag 2",
+    "Unit" : "transfer.pas",
+    "Overview" : "Use flag 2: Use this field when you need to add a name ",
+    "ticket" : "44500"
+
+  },
+  {
+    "Field" : "Use flag 3",
+    "Unit" : "dnadm005.pas",
+    "Overview" : "Use flag 3: DNA config flag ",
+    "ticket" : "24797"
+
+  }
+
+  ]

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="lib/jquery/dist/jquery.js"></script>
+</head>
+<body ng-app="app">
+     <h1> Help Page</h1>
+
+     <div ng-controller="flagctrl">
+         <select ng-model="selected"  ng-options="Field.Field for Field in items"  ng-change="showit(selected)";  >
+             <option value="">Select a Flag </option>
+         </select>
+
+         <div> <b>Description: </b>{{myOverview}}  </div>
+         <div> <b>Ticket: </b>{{myTicket}}  </div>
+         <div> <b>Unit:</b> {{myUnit}}  </div>
+     </div>
+</body>
+<script src="lib/angular/angular.js"></script>
+<script src="examcode.json"></script>
+<script src="app.js"></script>
+</html>
